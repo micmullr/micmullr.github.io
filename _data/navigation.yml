@@ -19,13 +19,13 @@ main:
     url: /cv/
     
    - title: "Kerbal"
-    url: https://mylonikos.github.io/mylon.github.io/tags/#category1  
+    url: "https://mylonikos.github.io/mylon.github.io/tags/#category1" 
     
    - title: "Operations Management"
-    url: https://mylonikos.github.io/mylon.github.io/tags/#category1  
+    url: "https://mylonikos.github.io/mylon.github.io/tags/#category1"  
     
    - title: "Produktmanagement"
-    url: https://mylonikos.github.io/mylon.github.io/tags/#category1  
+    url: "https://mylonikos.github.io/mylon.github.io/tags/#category1"  
     
     
  # - title: "Guide"
