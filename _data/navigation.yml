@@ -20,6 +20,9 @@ main:
     
   - title: "Kerbal"
     url: /categories/
+ 
+  - title: "Operations"
+    url: "https://mylonikos.github.io/mylon.github.io/tags/#category1" 
     
  # - title: "Guide"
  #   url: /markdown/
