@@ -202,6 +202,7 @@ defaults:
       comments: false
       share: true
       related: true
+      show_date: false    
   # _pages
   - scope:
       path: ""
@@ -209,6 +210,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: false 
   # _teaching
   - scope:
       path: ""
