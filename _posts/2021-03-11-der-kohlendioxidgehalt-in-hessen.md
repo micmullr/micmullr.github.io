@@ -8,7 +8,6 @@ tags:
   - category2
 ---
 
-# Der Kohlendioxidgehalt in Hessen Teil 1
 
 Die Rohdaten stellen uns vor folgenden Aufgaben:
 1. Den Datentyp müssen wir von Objekt in Zahlen umwandeln.
