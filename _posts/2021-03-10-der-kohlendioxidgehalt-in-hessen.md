@@ -1,3 +1,12 @@
+---
+title: Der Kohlendioxidgehalt in Hessen Teil 1
+permalink:/posts/2012/08/2021-03-10-der-kohlendioxidgehalt-in-hessen/
+date: 2021-03-10
+tags:
+    - python
+    - kohlendioxid
+---
+
 # Der Kohlendioxidgehalt in Hessen Teil 1
 
 Die Rohdaten stellen uns vor folgenden Aufgaben:
@@ -25,7 +34,7 @@ Deutschland verwendet ein Komma (,) als **Dezimaltrennzeichen**.
 **Feldtrennzeichen** 
 
 Die meisten europäischen Länder, trennen mit ';'' anstatt ',' und das Dezimaltrennzeichen ist ',' statt '.'
- 
+
 Die Messdaten einlesen (pd.read_csv) und die Zellen mit ';' trennen. Dezimaltrennzeichen ',' ( sep=';' , decimal=',').
 
 
@@ -61,7 +70,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -168,7 +177,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -267,7 +276,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -365,7 +374,7 @@ df.tail()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -494,7 +503,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -613,7 +622,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -760,7 +769,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -889,7 +898,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -1025,7 +1034,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -1166,7 +1175,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -1247,7 +1256,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -1329,7 +1338,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -1406,7 +1415,7 @@ df
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
