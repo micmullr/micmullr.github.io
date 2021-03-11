@@ -1,11 +1,9 @@
 ---
-title: 'Blog Post number 1'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+title: 'Gleitende Durchschnitte'
+date: 2021-03-12
+permalink: /beitrag/gleitende-durchschnitte/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - operationsmanagement
 ---
 
 This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
