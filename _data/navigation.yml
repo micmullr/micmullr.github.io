@@ -17,12 +17,9 @@ main:
     
   - title: "CV"
     url: /cv/
-    
-  - title: "Kerbal Space Program"
-    url: "https://mylonikos.github.io/mylon.github.io/tags/#category1" 
- 
+     
   - title: "Operations Management"
-    url: "https://mylonikos.github.io/mylon.github.io/tags/#category2" 
+    url: "https://mylonikos.github.io/mylon.github.io/tags/#operations-management" 
     
   - title: "Finanzmanagment"
     url: "https://mylonikos.github.io/mylon.github.io/tags/#category3"     
