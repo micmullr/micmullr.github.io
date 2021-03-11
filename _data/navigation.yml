@@ -18,11 +18,14 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Kerbal"
-    url: /categories/
- 
-  - title: "Operations"
+  - title: "Kerbal Space Program"
     url: "https://mylonikos.github.io/mylon.github.io/tags/#category1" 
+ 
+  - title: "Operations Management"
+    url: "https://mylonikos.github.io/mylon.github.io/tags/#category2" 
+    
+  - title: "Finanzmanagment"
+    url: "https://mylonikos.github.io/mylon.github.io/tags/#category3"     
     
  # - title: "Guide"
  #   url: /markdown/
