@@ -59,8 +59,8 @@ de: &DEFAULT_DE
   toc_label                  : "On This Page"
   ext_link_label             : "Direct Link"
   less_than                  : "Lesezeit:"
-  minute_read                : ""
-  share_on_label             : "Share on"
+  minute_read                : "."
+  share_on_label             : "Teile auf"
   meta_label                 :
   tags_label                 : "Tags:"
   categories_label           : "Kategorien:"
