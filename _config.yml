@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "de-DE"
 title                    : "Astronautica - Meine Reise zum Data Scientist"
 title_separator          : "-"
 name                     : &name "Michael Müller"
-description              : &description "Meine Reise zum Data Scientist""
+description              : &description "Meine Reise zum Data Scientist"
 url                      : https://mylonikos.github.io/mylon.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mylonikos/mylon.github.io/mylon.github.io"
