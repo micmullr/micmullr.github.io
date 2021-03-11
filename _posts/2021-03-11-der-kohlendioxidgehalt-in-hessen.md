@@ -1,7 +1,7 @@
 ---
 title: 'Der Kohlendioxidgehalt in Hessen Teil 1'
 date: 2021-03-11
-permalink: /posts/2012/08/kohlendioxid-hessen-1/
+permalink: /beitrag/kohlendioxid-hessen-1/
 tags:
   - cool posts
   - category1
