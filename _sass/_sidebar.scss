@@ -88,14 +88,8 @@
 
     @include breakpoint($large) {
       #padding: 5px;
-      border: 5px solid; 
-	  border-color: green; 
+      border: 5px solid; $border-color;
 	  
-	  
-	  /*
-
-   ========================================================================== 
-	  #$border-color;*/
     }
   }
 }
