@@ -2,8 +2,8 @@ Stand: 16.03.2021
 
 ![grafik.png](attachment:grafik.png)
 
-| ![Kohlendioxidmessung der Messstation Wasserkuppe](/images/co2hessen/kohlendioxidmessung_messstation_wasserkuppe.png) | 
-|:--:| 
+| ![Kohlendioxidmessung der Messstation Wasserkuppe](/mylon.github.io/images/co2hessen/kohlendioxidmessung_messstation_wasserkuppe.png) |
+|:--:|
 | *Kohlendioxidmessung der Messstation Wasserkuppe* |
 
 Der Boden als Kohlenstoffspeicher ist keine Konstante, sondern reagiert äußerst dynamisch auf veränderte Konzentrationen von Treibhausgasen in der Atmosphäre. Darum ist es wichtig den Kohlendioxidgehalt zu verfolgen. Das Hessische Landesamt für Naturschutz, Umwelt und Geologie, liefert aktuelle Messwerte der Kohlendioxid-Konzentrationen von zwei Stationen in Hessen. Diese befinden sich in Linden und Wasserkuppe.[^1] 
@@ -78,7 +78,7 @@ df_wasserkuppe.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -212,7 +212,7 @@ df_wasserkuppe.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -334,7 +334,7 @@ df_wasserkuppe.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -456,7 +456,7 @@ df_wasserkuppe.tail()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
