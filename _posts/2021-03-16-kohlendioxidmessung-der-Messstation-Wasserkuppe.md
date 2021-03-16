@@ -2,7 +2,7 @@ Stand: 16.03.2021
 
 ![grafik.png](attachment:grafik.png)
 
-| ![Kohlendioxidmessung der Messstation Wasserkuppe](images/co2hessen/kohlendioxidmessung_messstation_wasserkuppe.png) | 
+| ![Kohlendioxidmessung der Messstation Wasserkuppe](/images/co2hessen/kohlendioxidmessung_messstation_wasserkuppe.png) | 
 |:--:| 
 | *Kohlendioxidmessung der Messstation Wasserkuppe* |
 
