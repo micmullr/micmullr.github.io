@@ -115,7 +115,7 @@ Workshops
 
 * **Digital Transformation Simulation in der Automobilindustrie & der Volkswagen AG**
 
-  * Jan. 2019  Am Freitag, den 18.01.19, fand im Rahmen eines Workshops an der  Hochschule Nordhausen eine von Falk Bothe (Director Digital  Transformation Office | Volkswagen AG) und Silas Zischka (Masterand  Digital Transformation | Volkswagen AG) angeleitete Simulation zum Thema „Digitale Transformation“ statt.
+  * Jan. 2019  Am Freitag, den 18.01.19, fand im Rahmen eines Workshops an der  Hochschule Nordhausen eine von Falk Bothe (Director Digital  Transformation Office, Volkswagen AG) und Silas Zischka (Masterand  Digital Transformation, Volkswagen AG) angeleitete Simulation zum Thema „Digitale Transformation“ statt.
 
     Es ging darum die Digitale Transformation gemeinsam kennenzulernen und zu verstehen.
 
