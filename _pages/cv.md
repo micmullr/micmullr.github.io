@@ -48,9 +48,11 @@ Bescheinigungen und Zertifikate
 * **Data Science, Machine Learning und GIS**
   
   * Machine Learning
+    
     Ausgestellt von: Stanford University auf Coursera
-    Ausgestellt: Okt. 2019
   
+    Ausgestellt: Okt. 2019
+    
   * Spatial Data Science and Applications
   
     Ausgestellt von: Yonsei University auf Coursera
@@ -62,6 +64,7 @@ Bescheinigungen und Zertifikate
   * Getting Started with Python
 
     Ausgestellt von: University of Michigan auf Coursera
+
     Ausgestellt: Sept. 2018
 
   * Webseitenprogrammierung HTML, Javascript, MySQL, PHP
@@ -71,22 +74,31 @@ Bescheinigungen und Zertifikate
 * **Klima**
 
   - Introductory e-Course on Climate Change
+    
     Ausgestellt von: United Nations Institute for Training and Research (UNITAR) auf UN CC:Learn.
+    
     Ausgestellt: Sept. 2019
+    
   - KlimaMOOC
+    
     Ausgestellt von:  Deutsche Klima-Konsortium e. V. (DKK) auf oncampus
+    
     Ausgestellt: Dez. 2020 
 
 * **Boden**
 
   - Soils: Introducing the world beneath our feet
+    
     Ausgestellt von: Lancaster University auf Future Learn.
+    
     Ausgestellt: Aug. 2020
 
 * **Energie**
   
      * Organic Solar Cells – Theory and Practice
+          
           Ausgestellt von: Technical University of Denmark auf Coursera
+          
           Ausgestellt: Sept. 2018
 
 Hackathon 
