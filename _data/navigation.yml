@@ -15,14 +15,14 @@ main:
   - title: "Beiträge"
     url: /blog/
     
-  - title: "CV"
+  - title: "cv"
     url: /cv/
      
   - title: "Operations Management"
-    url: "https://mylonikos.github.io/mylon.github.io/tags/#operations-management" 
+    url: "https://mylonikos.github.io/tags/#operations-management" 
     
   - title: "Finanzmanagment"
-    url: "https://mylonikos.github.io/mylon.github.io/tags/#category3"     
+    url: "https://mylonikos.github.io/tags/#finanzmanagment"     
     
  # - title: "Guide"
  #   url: /markdown/
