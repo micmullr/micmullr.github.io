@@ -1,7 +1,9 @@
+---
 title: 'Kohlendioxidmessung der Messstation Wasserkuppe'
 date: 2021-04-26
 permalink: /beitrag/kohlendioxidmessung_wasserkuppe/
 tags:
+---
 
 
 Stand: 26.04.2021
@@ -520,7 +522,7 @@ ctx.add_basemap(ax = ax, source=ctx.providers.NASAGIBS.ViirsEarthAtNight2012)
 
 
 
-![png](output_21_2.png)
+![png](/images/kohlendioxidmessung/output_21_2.png)
     
 
 
@@ -560,7 +562,7 @@ ctx.add_basemap(ax = ax, source=ctx.providers.NASAGIBS.ViirsEarthAtNight2012)
 
 
 
-![png](output_22_2.png)
+![png](/images/kohlendioxidmessung/output_22_2.png)
     
 
 
@@ -1835,7 +1837,7 @@ plt.legend()
 
 
 ​    
-![png](output_79_1.png)
+![png](/images/kohlendioxidmessung/output_79_1.png)
 ​    
 
 
@@ -1879,7 +1881,7 @@ scatter_matrix(df_wasserkuppedrop, figsize=(15,7))
 
 
 ​    
-![png](output_81_1.png)
+![png](/images/kohlendioxidmessung/output_81_1.png)
 ​    
 
 
@@ -2047,7 +2049,7 @@ scatter_matrix(dfco2m , figsize=(15,7))
 
 
 ​    
-![png](output_83_1.png)
+![png](/images/kohlendioxidmessung/output_83_1.png)
 ​    
 
 
@@ -2059,7 +2061,7 @@ plt.show()
 
 
 ​    
-![png](output_84_0.png)
+![png](/images/kohlendioxidmessung/output_84_0.png)
 ​    
 
 
@@ -2071,7 +2073,7 @@ plt.show()
 
 
 ​    
-![png](output_85_0.png)
+![png](/images/kohlendioxidmessung/output_85_0.png)
 ​    
 
 
@@ -2083,7 +2085,7 @@ plt.show()
 
 
 ​    
-![png](output_86_0.png)
+![png](/images/kohlendioxidmessung/output_86_0.png)
 ​    
 
 
@@ -2120,7 +2122,7 @@ plt.show()
 
 
 ​    
-![png](output_88_0.png)
+![png](/images/kohlendioxidmessung/output_88_0.png)
 ​    
 
 
@@ -2672,7 +2674,7 @@ plt.show()
 
 
 ​    
-![png](output_99_0.png)
+![png](/images/kohlendioxidmessung/output_99_0.png)
 ​    
 
 
