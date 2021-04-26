@@ -436,7 +436,7 @@ ctx.add_basemap(ax = ax, source=ctx.providers.OpenTopoMap)
 
 
 
-![png](/images/kohlendioxidmessung/output_20_1.png)
+![png](/images/kohlendioxidmessung/output_17_1.png)
     
 
 
