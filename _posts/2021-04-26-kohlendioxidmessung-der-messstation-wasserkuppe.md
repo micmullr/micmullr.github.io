@@ -10,7 +10,7 @@ Stand: 26.04.2021
 
 | ![Kohlendioxidmessung der Messstation Wasserkuppe](/images/kohlendioxidmessung/kohlendioxidmessung_messstation_wasserkuppe.png) |
 |:--:|
-| *Kohlendioxidmessung der Messstation Wasserkuppe* |
+| *Kohlendioxidmessung der Messstation Wasserkuppe[^10]* |
 
 Der Boden als Kohlenstoffspeicher ist keine Konstante, sondern reagiert äußerst dynamisch auf veränderte Konzentrationen von Treibhausgasen in der Atmosphäre. Darum ist es wichtig den Kohlendioxidgehalt zu verfolgen. Das Hessische Landesamt für Naturschutz, Umwelt und Geologie, liefert aktuelle Messwerte der Kohlendioxid-Konzentrationen von zwei Stationen in Hessen. Diese befinden sich in Linden und Wasserkuppe.[^1] 
 
@@ -1332,7 +1332,7 @@ df_wasserkuppe.to_csv('daten/wasserkuppe.csv')
 
 # Umrechnung $𝑚𝑔/𝑚^3$ in ppm
 
-Der $CO_2$-Gehalt in der Luft wird in parts per million (Anteile pro Million), kurz ppm, oder in Prozent (%), beziehungsweise Volumenprozent (Vol.-%) angegeben. Zu Beginn der Industrialisierung, um 1750 lag die $CO_2$-Konzentration bei 278 ppm. Diese historischen Daten sind in ppm, die Messtelle gibt die Kohlendioxidangaben in 𝑚𝑔/𝑚3 an. [^]  Um die Massenkonzentrationen und Volumenmischungsverhältnisse besser vergleichen zu können, werden sie in diesem Abschnitt umgewandelt. Die Angaben als Massenkonzentrationen in 𝑚𝑔/𝑚3 gelten nur für die bestimmten Bedingungen von Druck und Temperatur. Der Befehl df_wasserkuppe.info() liefert uns das maximal 76646 Werte ppm berechnen könnten. Da nur für 76646 Luftdruckwerte vorhanden sind.
+Der $CO_2$-Gehalt in der Luft wird in parts per million (Anteile pro Million), kurz ppm, oder in Prozent (%), beziehungsweise Volumenprozent (Vol.-%) angegeben. Zu Beginn der Industrialisierung, um 1750 lag die $CO_2$-Konzentration bei 278 ppm. Diese historischen Daten sind in ppm, die Messtelle gibt die Kohlendioxidangaben in 𝑚𝑔/𝑚3 an. [^7] [^5]  Um die Massenkonzentrationen und Volumenmischungsverhältnisse besser vergleichen zu können, werden sie in diesem Abschnitt umgewandelt. Die Angaben als Massenkonzentrationen in 𝑚𝑔/𝑚3 gelten nur für die bestimmten Bedingungen von Druck und Temperatur. Der Befehl df_wasserkuppe.info() liefert uns das maximal 76646 Werte ppm berechnen könnten. Da nur für 76646 Luftdruckwerte vorhanden sind.
 
  
 
@@ -1473,7 +1473,7 @@ p...ist der Bezugsdruck. Der Normdruck wäre 1013,25 mbar.
 mol...die molare Masse von Kohlendioxid in g/mol:
 44,01 g/mol
 
-10 ergibt sich als Umrechnungsfaktor, da keine konsistenten Einheiten verwendet werden
+10 ergibt sich als Umrechnungsfaktor, da keine konsistenten Einheiten verwendet werden[^12]
 
 R ist die Universelle Gaskonstante = 8,314472 J/(K·mol)
 
@@ -2676,7 +2676,7 @@ plt.show()
 ​    
 
 
-In der Abbildung sind die Kohlendioxidwerte für November 2011 am geringsten und im April 2018 am höchsten. Der Einfluss der Nordhemisphäre dominiert den jährlichen Zyklus der Schwankung der Kohlenstoffdioxidkonzentration, denn dort befinden sich weit größere Landflächen und somit eine größere Biomasse als auf der Südhemisphäre. Die Konzentration ist im Mai auf der Nordhemisphäre am höchsten, da das im Frühling stattfindende Ergrünen zu dieser Zeit beginnt; sie erreicht ihr Minimum im Oktober, wenn die Photosynthese betreibende Biomasse am größten ist.
+In der Abbildung sind die Kohlendioxidwerte für November 2011 am geringsten und im April 2018 am höchsten. Der Einfluss der Nordhemisphäre dominiert den jährlichen Zyklus der Schwankung der Kohlenstoffdioxidkonzentration, denn dort befinden sich weit größere Landflächen und somit eine größere Biomasse als auf der Südhemisphäre. Die Konzentration ist im Mai auf der Nordhemisphäre am höchsten, da das im Frühling stattfindende Ergrünen zu dieser Zeit beginnt; sie erreicht ihr Minimum im Oktober, wenn die Photosynthese betreibende Biomasse am größten ist.[^6]
 
 ## Minimale und maximale Werte
 
