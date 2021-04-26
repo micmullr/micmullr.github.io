@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "de-DE"
-title                    : "Astronautica"
+title                    : "Michael Müller"
 title_separator          : "-"
 name                     : &name "Michael Müller"
 description              : &description "Meine Reise zum Data Scientist"
