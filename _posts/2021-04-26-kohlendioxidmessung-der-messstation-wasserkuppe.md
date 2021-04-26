@@ -8,7 +8,7 @@ tags:
 
 Stand: 26.04.2021
 
-| ![Kohlendioxidmessung der Messstation Wasserkuppe](images/co2hessen/kohlendioxidmessung_messstation_wasserkuppe.png) |
+| ![Kohlendioxidmessung der Messstation Wasserkuppe](/images/kohlendioxidmessung/kohlendioxidmessung_messstation_wasserkuppe.png) |
 |:--:|
 | *Kohlendioxidmessung der Messstation Wasserkuppe* |
 
@@ -34,7 +34,7 @@ Der Datensatz stammt vom Hessisches Landesamt für Naturschutz, Umwelt und Geolo
 Folgendes wurde gewählt: Luft, Luftmessnetz, Wasserkuppe. Mit den drei ausgewählten Parametern Kohlendioxid (CO₂), Luftdruck, Temperatur und dem Stundenmittelwert. Temperatur und Luftdruck sind notwendig um die Messwerte in das Volumenmischungsverhältnis ppm umzurechnen. Der Download fand am 05.06.2020 statt, für diesem Zeitraum: 05.07.2000 - 04.06.2020. 
 
 
-| ![Standort der Messstation Wasserkuppe](images/co2hessen/standort_der_messstation_wasserkuppe.png) |
+| ![Standort der Messstation Wasserkuppe](/images/kohlendioxidmessung/standort_der_messstation_wasserkuppe.png) |
 |:--:|
 | *Standort der Messstation Wasserkuppe* |
 
