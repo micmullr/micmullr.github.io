@@ -84,15 +84,13 @@ Es wurde Python 3.7 genutzt. Die folgende Installationsreihenfolge ist wichtig. 
 
 * pip install matplotlib
 * pip contextily ---> lieferte den Fehler: A GDAL API version must be specified. Provide a path to gdal-config using a GDAL_CONFIG environment variable or use a GDAL_VERSION environment variable.
-<br></br>
-<br></br>
 Deswegen:
 * conda install contextily --channel conda-forge
 
 ## Shapefile Deutschland
 
 Die benötigte Shapefile wurde von folgender Seite runtergeladen:
-www.suche-postleitzahl.org/downloads. Die folgende Seite war dabei sehr hilfreich. [^2]
+www.suche-postleitzahl.org/downloads. Die folgende Seite war dabei sehr hilfreich. [^10]
 
 
 - plz-gebiete.shp: Die Datei enthält die Polygone der einzelnen Postleitzahlenbereiche 
@@ -446,7 +444,7 @@ Der rote schraffierte Bereich ist das Sperrgebiet Truppenübungsplatz Wildflecke
 
 Die Lichter der Erde bei Nacht sind hauptsächlich vom Menschen gemacht. Dieses wird genutzt um die nährere Umgebung des Standortes auf die anthropogenen Einflüsse einzuschätzen. Hierfür werden Satellitenbilder genutzt. Vom Visible-Infrared-Imaging-Radiometer-Suite-Instrument (VIIRS) auf dem Suomi-NPP-Satelliten, der am 28. Oktober 2011 von NASA und NOAA (National Oceanic and Atmospheric Administration) gestartet worden ist.
 
-Das VIIRS-Instrument wurde speziell entwickelt, um die Erde tagsüber statt nachts zu beobachten. Seine Empfindlichkeit reicht aus, um das Licht eines einzelnen Schiffes auf der Erdoberfläche zu erfassen.
+Das VIIRS-Instrument wurde speziell entwickelt, um die Erde tagsüber statt nachts zu beobachten. Seine Empfindlichkeit reicht aus, um das Licht eines einzelnen Schiffes auf der Erdoberfläche zu erfassen.[^4]
 
 
 
@@ -1127,10 +1125,10 @@ df_wasserkuppe.dtypes
 
 
 Für die weitere Datenverarbeitung, zum Beispiel für FP Prophet, wird ein bestimmtes Datumsformat benötigt. 
-Zur 'Zeit'spalte wird ":00" hinzugeügt, ohne Sekundenformat gibt es eine Fehlermeldung. [^3]
+Zur 'Zeit'spalte wird ":00" hinzugeügt, ohne Sekundenformat gibt es eine Fehlermeldung. 
 
 Prophet ist eine Open-Source-Software, die vom Core Data Science-Team von Facebook veröffentlicht wurde. 
-Prophet ist für die Prognose von Zeitreihendaten geeignet.
+Prophet ist für die Prognose von Zeitreihendaten geeignet.[^3]
 
 
 
@@ -2898,11 +2896,11 @@ Quellenangaben:
 Quellenangabe Code:
 
 
-[^1]: Vettigli, G. (2019, 22. April). Visualizing Atmospheric Carbon Dioxide. Dzone.Com. https://dzone.com/articles/visualizing-atmospheric-carbon-dioxide
+[^10]: Vettigli, G. (2019, 22. April). Visualizing Atmospheric Carbon Dioxide. Dzone.Com. https://dzone.com/articles/visualizing-atmospheric-carbon-dioxide
 
-[^2]: Orduz, J. C. (2020, 7. Januar). Open Data: Germany Maps Viz. Dr. Juan Camilo Orduz. https://juanitorduz.github.io/germany_plots/
+[^11]: Orduz, J. C. (2020, 7. Januar). Open Data: Germany Maps Viz. Dr. Juan Camilo Orduz. https://juanitorduz.github.io/germany_plots/
 
-[^3]: ppm in mg/m3. (2019). NABU Eibelshausen. http://www.nabu-eibelshausen.de/Rechner/ppm.html
+[^12]: ppm in mg/m3. (2019). NABU Eibelshausen. http://www.nabu-eibelshausen.de/Rechner/ppm.html
 
 
 Quellenangaben Sonstiges:
