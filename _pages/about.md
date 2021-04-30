@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Meine Reise zum Data Scientist"
+title: "Data Science, Python, Blender, Django"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
