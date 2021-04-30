@@ -1,16 +1,14 @@
 ---
 title: 'Kohlendioxidmessung der Messstation Wasserkuppe'
-date: 2021-04-26
+date: 2021-04-30
 permalink: /beitrag/kohlendioxidmessung_wasserkuppe/
 tags:
 ---
-
-
-Stand: 26.04.2021
+Stand: 27.04.2021
 
 | ![Kohlendioxidmessung der Messstation Wasserkuppe](/images/kohlendioxidmessung/kohlendioxidmessung_messstation_wasserkuppe.png) |
 |:--:|
-| *Kohlendioxidmessung der Messstation Wasserkuppe[^10]* |
+| *Kohlendioxidmessung der Messstation Wasserkuppe* |
 
 Der Boden als Kohlenstoffspeicher ist keine Konstante, sondern reagiert äußerst dynamisch auf veränderte Konzentrationen von Treibhausgasen in der Atmosphäre. Darum ist es wichtig den Kohlendioxidgehalt zu verfolgen. Das Hessische Landesamt für Naturschutz, Umwelt und Geologie, liefert aktuelle Messwerte der Kohlendioxid-Konzentrationen von zwei Stationen in Hessen. Diese befinden sich in Linden und Wasserkuppe.[^1] 
 
@@ -84,13 +82,14 @@ Es wurde Python 3.7 genutzt. Die folgende Installationsreihenfolge ist wichtig. 
 
 * pip install matplotlib
 * pip contextily ---> lieferte den Fehler: A GDAL API version must be specified. Provide a path to gdal-config using a GDAL_CONFIG environment variable or use a GDAL_VERSION environment variable.
+
 Deswegen:
 * conda install contextily --channel conda-forge
 
 ## Shapefile Deutschland
 
 Die benötigte Shapefile wurde von folgender Seite runtergeladen:
-www.suche-postleitzahl.org/downloads. Die folgende Seite war dabei sehr hilfreich. [^10]
+www.suche-postleitzahl.org/downloads. Die folgende Seite war dabei sehr hilfreich.[^9]
 
 
 - plz-gebiete.shp: Die Datei enthält die Polygone der einzelnen Postleitzahlenbereiche 
@@ -114,7 +113,7 @@ Die Postleitzahlen müssen als String gelesen werden. Sonst wird eine 01 beginne
 
 
 ```python
-dtl_shapefile_df = gpd.read_file('plz-gebiete.shp', dtype={'plz': str})
+dtl_shapefile_df = gpd.read_file('plz-gebiete.shp', dtype={'plz': str}, encoding="utf-8")
 
 dtl_shapefile_df
 
@@ -175,7 +174,7 @@ dtl_shapefile_df
     <tr>
       <th>4</th>
       <td>52531</td>
-      <td>52531 Ãbach-Palenberg</td>
+      <td>52531 Übach-Palenberg</td>
       <td>POLYGON ((6.01507 50.94788, 6.03854 50.93561, ...</td>
     </tr>
     <tr>
@@ -187,7 +186,7 @@ dtl_shapefile_df
     <tr>
       <th>8720</th>
       <td>02899</td>
-      <td>02899 Ostritz, SchÃ¶nau-Berzdorf</td>
+      <td>02899 Ostritz, Schönau-Berzdorf</td>
       <td>POLYGON ((14.85296 51.06854, 14.85449 51.06859...</td>
     </tr>
     <tr>
@@ -199,19 +198,19 @@ dtl_shapefile_df
     <tr>
       <th>8722</th>
       <td>02827</td>
-      <td>02827 GÃ¶rlitz</td>
+      <td>02827 Görlitz</td>
       <td>POLYGON ((14.91168 51.14243, 14.91571 51.14571...</td>
     </tr>
     <tr>
       <th>8723</th>
       <td>02828</td>
-      <td>02828 GÃ¶rlitz</td>
+      <td>02828 Görlitz</td>
       <td>POLYGON ((14.93413 51.16084, 14.93451 51.16123...</td>
     </tr>
     <tr>
       <th>8724</th>
       <td>02826</td>
-      <td>02826 GÃ¶rlitz</td>
+      <td>02826 Görlitz</td>
       <td>POLYGON ((14.95374 51.14703, 14.95393 51.14814...</td>
     </tr>
   </tbody>
@@ -416,9 +415,9 @@ gdf = gpd.GeoDataFrame(df.drop(['latitude', 'longitude'], axis=1),
                                  for xy in zip(df.longitude, df.latitude)])
 gdf = gdf.to_crs(epsg = 3857)
 print(gdf)
-fig = plt.figure(figsize = (30,30))
+fig = plt.figure(figsize = (15,15))
 ax = plt.subplot()
-ax.text(x = 1106053.829, y = 6532916.278 - 715, s ='Messstelle Wasserkuppe', size = 28) 
+ax.text(x = 1106053.829, y = 6532916.278 - 715, s ='Messstelle Wasserkuppe', size = 18) 
 wasserkuppe_df = wasserkuppe_df.plot(color='none',edgecolor='black', linewidth=3, ax = ax)
                                                                          
 ax.set_axis_off()                                    
@@ -462,7 +461,7 @@ gdf = gpd.GeoDataFrame(df.drop(['latitude', 'longitude'], axis=1),
                                  for xy in zip(df.longitude, df.latitude)])
 gdf = gdf.to_crs(epsg = 3857)
 print(gdf)
-fig = plt.figure(figsize = (30,30))
+fig = plt.figure(figsize = (20,20))
 ax = plt.subplot()
 ax.text(x = 1106053.829 - 47150, y = 6532916.278 + 5915, s ='Messstelle Wasserkuppe', size = 28, color = 'white') 
 wasserkuppe_df = wasserkuppe_df.plot(color='none',edgecolor='gray', linewidth=0, ax = ax)
@@ -498,9 +497,9 @@ gdf = gpd.GeoDataFrame(df.drop(['latitude', 'longitude'], axis=1),
                                  for xy in zip(df.longitude, df.latitude)])
 gdf = gdf.to_crs(epsg = 3857)
 print(gdf)
-fig = plt.figure(figsize = (30,30))
+fig = plt.figure(figsize = (25,25))
 ax = plt.subplot()
-ax.text(x = 1106053.829 - 47150, y = 6532916.278 + 5915, s ='Messstelle Wasserkuppe', size = 28, color = 'white') 
+ax.text(x = 1106053.829 - 47150, y = 6532916.278 + 5915, s ='Messstelle Wasserkuppe', size = 18, color = 'white') 
 wasserkuppe_df = wasserkuppe_df.plot(color='none',edgecolor='gray', linewidth=1, ax = ax)
                                                                          
 ax.set_axis_off()                                    
@@ -538,9 +537,9 @@ gdf = gpd.GeoDataFrame(df.drop(['latitude', 'longitude'], axis=1),
                                  for xy in zip(df.longitude, df.latitude)])
 gdf = gdf.to_crs(epsg = 3857)
 print(gdf)
-fig = plt.figure(figsize = (30,30))
+fig = plt.figure(figsize = (15,15))
 ax = plt.subplot()
-ax.text(x = 1106053.829, y = 6532916.278, s ='Messstelle Wasserkuppe', size = 28, color = 'white') 
+ax.text(x = 1106053.829 - 2700, y = 6532916.278 + 515, s ='Messstelle Wasserkuppe', size = 18, color = 'white') 
 wasserkuppe_df = wasserkuppe_df.plot(color='none',edgecolor='gray', linewidth=3, ax = ax)
                                                                          
 ax.set_axis_off()                                    
@@ -843,8 +842,7 @@ df_wasserkuppe.head()
 
 Die Datenreihe Luftdruck[hPa], Temperatur und Kohlendioxid (CO2)[mg/m³] von object zu float umwandeln, und erstelle eine neue Spalten namens Luftdruck, Temperatur und Kohlendioxid. (pd.to_numeric) Der Parameter errors='coerce' wandelt '-' und andere Parsingfehler zu NaN (Not a Number) um.
 
-#Pandas operations like to_numeric don't operate "in-place" by default. I recommend that you assign the result to a column in your dataframe.
-
+Pandas-Operationen wie to_numeric arbeiten standardmäßig nicht "in-place". Deswegen werden die Ergebnisse, einer neuen Spalte zugewiesen.
 
 
 
@@ -1125,10 +1123,10 @@ df_wasserkuppe.dtypes
 
 
 Für die weitere Datenverarbeitung, zum Beispiel für FP Prophet, wird ein bestimmtes Datumsformat benötigt. 
-Zur 'Zeit'spalte wird ":00" hinzugeügt, ohne Sekundenformat gibt es eine Fehlermeldung. 
+Zur 'Zeit'spalte wird ":00" hinzugeügt, ohne Sekundenformat gibt es eine Fehlermeldung. [^3]
 
 Prophet ist eine Open-Source-Software, die vom Core Data Science-Team von Facebook veröffentlicht wurde. 
-Prophet ist für die Prognose von Zeitreihendaten geeignet.[^3]
+Prophet ist für die Prognose von Zeitreihendaten geeignet.
 
 
 
@@ -1332,7 +1330,7 @@ df_wasserkuppe.to_csv('daten/wasserkuppe.csv')
 
 # Umrechnung $𝑚𝑔/𝑚^3$ in ppm
 
-Der $CO_2$-Gehalt in der Luft wird in parts per million (Anteile pro Million), kurz ppm, oder in Prozent (%), beziehungsweise Volumenprozent (Vol.-%) angegeben. Zu Beginn der Industrialisierung, um 1750 lag die $CO_2$-Konzentration bei 278 ppm. Diese historischen Daten sind in ppm, die Messtelle gibt die Kohlendioxidangaben in 𝑚𝑔/𝑚3 an. [^7] [^5]  Um die Massenkonzentrationen und Volumenmischungsverhältnisse besser vergleichen zu können, werden sie in diesem Abschnitt umgewandelt. Die Angaben als Massenkonzentrationen in 𝑚𝑔/𝑚3 gelten nur für die bestimmten Bedingungen von Druck und Temperatur. Der Befehl df_wasserkuppe.info() liefert uns das maximal 76646 Werte ppm berechnen könnten. Da nur für 76646 Luftdruckwerte vorhanden sind.
+Der $CO_2$-Gehalt in der Luft wird in parts per million (Anteile pro Million), kurz ppm, oder in Prozent (%), beziehungsweise Volumenprozent (Vol.-%) angegeben. Zu Beginn der Industrialisierung, um 1750 lag die $CO_2$-Konzentration bei 278 ppm.[^6] [^7] Diese historischen Daten sind in ppm, die Messtelle gibt die Kohlendioxidangaben in $𝑚𝑔/𝑚^3$ an. Um die Massenkonzentrationen und Volumenmischungsverhältnisse besser vergleichen zu können, werden sie in diesem Abschnitt umgewandelt. Die Angaben als Massenkonzentrationen in $𝑚𝑔/𝑚^3$ gelten nur für die bestimmten Bedingungen von Druck und Temperatur. Der Befehl df_wasserkuppe.info() liefert uns das maximal 76646 Werte ppm berechnen könnten. Da nur für 76646 Luftdruckwerte vorhanden sind.
 
  
 
@@ -1473,7 +1471,7 @@ p...ist der Bezugsdruck. Der Normdruck wäre 1013,25 mbar.
 mol...die molare Masse von Kohlendioxid in g/mol:
 44,01 g/mol
 
-10 ergibt sich als Umrechnungsfaktor, da keine konsistenten Einheiten verwendet werden[^12]
+10 ergibt sich als Umrechnungsfaktor, da keine konsistenten Einheiten verwendet werden[^10]
 
 R ist die Universelle Gaskonstante = 8,314472 J/(K·mol)
 
@@ -2651,6 +2649,8 @@ df_vis
 
 
 
+Folgender Code war bei der Erstellung hilfreich [^8]
+
 
 ```python
 co2_data = df_vis['2011':'2019']
@@ -2672,11 +2672,11 @@ plt.show()
 
 
 ​    
-![png](/images/kohlendioxidmessung/output_99_0.png)
+![png](/images/kohlendioxidmessung/output_100_0.png)
 ​    
 
 
-In der Abbildung sind die Kohlendioxidwerte für November 2011 am geringsten und im April 2018 am höchsten. Der Einfluss der Nordhemisphäre dominiert den jährlichen Zyklus der Schwankung der Kohlenstoffdioxidkonzentration, denn dort befinden sich weit größere Landflächen und somit eine größere Biomasse als auf der Südhemisphäre. Die Konzentration ist im Mai auf der Nordhemisphäre am höchsten, da das im Frühling stattfindende Ergrünen zu dieser Zeit beginnt; sie erreicht ihr Minimum im Oktober, wenn die Photosynthese betreibende Biomasse am größten ist.[^6]
+In der Abbildung sind die Kohlendioxidwerte für November 2011 am geringsten und im April 2018 am höchsten. Der Einfluss der Nordhemisphäre dominiert den jährlichen Zyklus der Schwankung der Kohlenstoffdioxidkonzentration, denn dort befinden sich weit größere Landflächen und somit eine größere Biomasse als auf der Südhemisphäre. Die Konzentration ist im Mai auf der Nordhemisphäre am höchsten, da das im Frühling stattfindende Ergrünen zu dieser Zeit beginnt; sie erreicht ihr Minimum im Oktober, wenn die Photosynthese betreibende Biomasse am größten ist.[^5]
 
 ## Minimale und maximale Werte
 
@@ -2887,21 +2887,17 @@ Quellenangaben:
 
 [^4]: Hattenbach, J. (2012, 6. Dezember). Das neue Bild der Erde - bei Nacht. SciLogs - Wissenschaftsblogs. https://scilogs.spektrum.de/himmelslichter/das-neue-bild-der-erde-bei-nacht/
 
-[^5]: https://wiki.bildungsserver.de/klimawandel/index.php/Kohlendioxid-Konzentration 
+[^5]: U.K. (2016, 21. Januar). Florierende Vegetation verstärkt Kohlendioxid-Schwankungen. Max-Planck-Gesellschaft. https://www.mpg.de/9862783/co2-schwankung-vegetation-erderwaermung
 
-[^6]: U.K. (2016, 21. Januar). Florierende Vegetation verstärkt Kohlendioxid-Schwankungen. Max-Planck-Gesellschaft. https://www.mpg.de/9862783/co2-schwankung-vegetation-erderwaermung
+[^6]: Kohlendioxid-Konzentration – Klimawandel. (2019). bildungsserver. https://wiki.bildungsserver.de/klimawandel/index.php/Kohlendioxid-Konzentration
 
 [^7]: Wikipedia-Autoren. (2007, 16. Mai). Kohlenstoffdioxid in der Erdatmosphäre. Wikipedia. https://de.wikipedia.org/wiki/Kohlenstoffdioxid_in_der_Erdatmosph%C3%A4re
 
-Quellenangabe Code:
+[^8]: Vettigli, G. (2019, 22. April). Visualizing Atmospheric Carbon Dioxide. Dzone.Com. https://dzone.com/articles/visualizing-atmospheric-carbon-dioxide
 
+[^9]: Orduz, J. C. (2020, 7. Januar). Open Data: Germany Maps Viz. Dr. Juan Camilo Orduz. https://juanitorduz.github.io/germany_plots/
 
-[^10]: Vettigli, G. (2019, 22. April). Visualizing Atmospheric Carbon Dioxide. Dzone.Com. https://dzone.com/articles/visualizing-atmospheric-carbon-dioxide
-
-[^11]: Orduz, J. C. (2020, 7. Januar). Open Data: Germany Maps Viz. Dr. Juan Camilo Orduz. https://juanitorduz.github.io/germany_plots/
-
-[^12]: ppm in mg/m3. (2019). NABU Eibelshausen. http://www.nabu-eibelshausen.de/Rechner/ppm.html
-
+[^10]: ppm in mg/m3. (2019). NABU Eibelshausen. http://www.nabu-eibelshausen.de/Rechner/ppm.html
 
 Quellenangaben Sonstiges:
 
