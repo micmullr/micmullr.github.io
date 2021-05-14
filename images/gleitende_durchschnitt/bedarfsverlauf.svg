@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="767.18988"
+   height="223.66667"
+   overflow="hidden"
+   version="1.1"
+   id="svg57"
+   sodipodi:docname="bedarfsverlauf.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+  <metadata
+     id="metadata61">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview59"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     lock-margins="false"
+     inkscape:zoom="1.5828125"
+     inkscape:cx="331.41412"
+     inkscape:cy="50.359592"
+     inkscape:window-x="1016"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g55"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="1280"
+         height="720"
+         id="rect2" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#clip0)"
+     id="g55"
+     transform="translate(-246.5001,-282.83333)">
+    <path
+       d="m 875.5,291.5 c 0,-4.418 3.582,-8 8,-8 h 113 c 4.42,0 8,3.582 8,8 v 32 c 0,4.418 -3.58,8 -8,8 h -113 c -4.418,0 -8,-3.582 -8,-8 z"
+       stroke="#30e67f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path49" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       id="text53"
+       style="font-size:18.6667px"
+       x="890.41656"
+       y="312.18945"><tspan
+         font-size="24px"
+         x="899.74994"
+         y="312.18945"
+         id="tspan51"
+         style="font-size:18.6667px">sporadisch</tspan></text>
+    <path
+       d="M 0.333333,-2.70125e-7 0.333433,122.887 H -0.333234 L -0.333333,2.70125e-7 Z M 4.0001,121.553 l -3.999995013,8 -4.000004987,-8 z"
+       fill="#30e67f"
+       transform="matrix(1,0,0,-1,250.5,503.053)"
+       id="path9" />
+    <path
+       d="m 250.5,502.167 h 141.527 v 0.666 H 250.5 Z m 140.194,-3.667 8,4 -8,4 z"
+       fill="#30e67f"
+       id="path11" />
+    <path
+       d="M 0.333333,-2.70125e-7 0.333433,122.887 H -0.333234 L -0.333333,2.70125e-7 Z M 4.0001,121.553 l -3.999995013,8 -4.000004987,-8 z"
+       fill="#30e67f"
+       transform="matrix(1,0,0,-1,455.5,503.053)"
+       id="path13" />
+    <path
+       d="m 455.5,502.167 h 141.527 v 0.666 H 455.5 Z m 140.194,-3.667 8,4 -8,4 z"
+       fill="#30e67f"
+       id="path15" />
+    <path
+       d="M 0.333333,-2.70125e-7 0.333433,122.887 H -0.333234 L -0.333333,2.70125e-7 Z M 4.0001,121.553 l -3.999995013,8 -4.000004987,-8 z"
+       fill="#30e67f"
+       transform="matrix(1,0,0,-1,660.5,503.053)"
+       id="path17" />
+    <path
+       d="m 660.5,502.167 h 141.527 v 0.666 H 660.5 Z m 140.194,-3.667 8,4 -8,4 z"
+       fill="#30e67f"
+       id="path19" />
+    <path
+       d="M 0.333333,-2.70125e-7 0.333433,122.887 H -0.333234 L -0.333333,2.70125e-7 Z M 4.0001,121.553 l -3.999995013,8 -4.000004987,-8 z"
+       fill="#30e67f"
+       transform="matrix(1,0,0,-1,865.5,503.053)"
+       id="path21" />
+    <path
+       d="m 865.5,502.167 h 141.53 v 0.666 H 865.5 Z m 140.19,-3.667 8,4 -8,4 z"
+       fill="#30e67f"
+       id="path23" />
+    <path
+       d="M 250.5,420.5 H 379.199"
+       stroke="#30e67f"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path25" />
+    <path
+       d="M 0,0 132.272,51.4174"
+       stroke="#30e67f"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,455.5,478.917)"
+       id="path27" />
+    <path
+       d="m 660.5,421.5 57.01,32.078"
+       stroke="#30e67f"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path29" />
+    <path
+       d="m 750.5,420.5 57.01,32.078"
+       stroke="#30e67f"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path31" />
+    <path
+       d="M 0,0 35.0291,32.233"
+       stroke="#30e67f"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,717.5,452.733)"
+       id="path33" />
+    <path
+       d="m 866.5,475.354 c 7.685,-26.512 15.369,-53.023 24.41,-55.169 9.04,-2.145 19.889,45.208 29.834,42.296 9.945,-2.911 22.037,-64.056 29.834,-59.765 7.798,4.29 10.171,80.913 16.951,85.51 6.781,4.598 17.404,-50.111 23.732,-57.926 6.328,-7.816 8.819,5.976 14.239,11.033"
+       stroke="#30e67f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path35" />
+    <path
+       d="m 259.5,291.5 c 0,-4.418 3.582,-8 8,-8 h 113 c 4.418,0 8,3.582 8,8 v 32 c 0,4.418 -3.582,8 -8,8 h -113 c -4.418,0 -8,-3.582 -8,-8 z"
+       stroke="#30e67f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path37" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       id="text39"
+       style="font-size:18.6667px"
+       x="290.87299"
+       y="313.76172">konstant</text>
+    <path
+       d="m 465.5,291.5 c 0,-4.418 3.582,-8 8,-8 h 112 c 4.418,0 8,3.582 8,8 v 32 c 0,4.418 -3.582,8 -8,8 h -112 c -4.418,0 -8,-3.582 -8,-8 z"
+       stroke="#30e67f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path41" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21px"
+       id="text43"
+       style="font-size:18.6667px"
+       x="485.52661"
+       y="312.2168">trendmäßig</text>
+    <path
+       d="m 670.5,291.5 c 0,-4.418 3.582,-8 8,-8 h 113 c 4.418,0 8,3.582 8,8 v 32 c 0,4.418 -3.582,8 -8,8 h -113 c -4.418,0 -8,-3.582 -8,-8 z"
+       stroke="#30e67f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path45" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       id="text47"
+       style="font-size:18.6667px"
+       x="704.97192"
+       y="313.76172">saisonal</text>
+  </g>
+</svg>
