@@ -24,7 +24,7 @@ Der gleitende Durchschnitt errechnet sich ähnlich wie der normale Mittelwert:
 
 $${\frac {1}{n}}\sum _{i=1}^{n}{x_{i}}={\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}$$
 
-$$oder$$
+oder
 
 $$\hat{y}_{t+1} = \frac{1}{T}\sum^{t}_{\tau=t-T+1} y_t$$
 
