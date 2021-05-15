@@ -5,8 +5,6 @@ permalink: /beitrag/kohlendioxidmessung_wasserkuppe_teil2/
 tags:
 ---
 
-# 
-
 Welchen Einfluss hat der Messstellenstandort Wasserkuppe auf die Messdaten? Vor allem die anthropogen Einflüsse der näheren Umgebung. Die Visualisierung wird mit geopandas umgesetzt. Geopandas ist eine Pythonbibliothek für die Arbeit mit Geodaten. Für eine visuelle Eingrenzung liefert eine Shapefile, ein Format für vektorielle Geodaten, Polygondaten mit Bundesländer und Postleitzahlengebiete. Im weiteren Verlauf wird der Umgang mit dem Koordinatenbezugssystem beschrieben, den Installationsblauf von Geopandas gezeigt und eine OpenStreetMap als Basiskarte eingebunden.
 
 Das Koordinatenreferenzsystem oder Koordinatenbezugsystem (KBS), engl. coordinate reference system, international mit CRS abgekürzt, beschreibt die Lage eines Koordinatensystems zur Angabe einer Position auf der Erde.
