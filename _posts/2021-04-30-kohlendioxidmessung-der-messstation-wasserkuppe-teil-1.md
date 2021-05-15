@@ -1,7 +1,9 @@
+---
 title: 'Kohlendioxidmessung der Messstation Wasserkuppe Teil 1'
 date: 2021-04-30
 permalink: /beitrag/kohlendioxidmessung_wasserkuppe_teil1/
 tags:
+---
 
 Stand: 27.04.2021
 
