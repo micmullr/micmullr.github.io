@@ -68,7 +68,7 @@ de: &DEFAULT_DE
   minute_read                : "Minuten zum lesen"
   share_on_label             : "Teilen auf"
   meta_label                 :
-  tags_label                 : "Tags:"
+  tags_label                 : "Stichworte:"
   categories_label           : "Kategorien:"
   date_label                 : "Aktualisiert:"
   comments_label             : "Hinterlassen Sie einen Kommentar"
