@@ -14,7 +14,7 @@ tags:
 | ![Produktionskapazitäten der Sägewerke von Stora Enso im Jahr 2021 (in 1.000 m³)](/images/stora_enso/stora_enso_002.png) |
 | :----------------------------------------------------------: |
 |                                                              |
-| *Heatmap​ der Sägewerke von Stora Enso im Jahr 2021 (in 1.000 m³) * |
+| *Heatmap der Sägewerke von Stora Enso im Jahr 2021 (in 1.000 m³)* |
 
 Historisch wurden "Sägemühlen" direkt mit Wasserkraft angetrieben und Holz wurde oft über weite Strecken geflößt. Beides gibt es heute nicht mehr. Die nordeuropäischen Sägewerke liegen an der Ostseeküste, die anderen mehrheitlich nicht an Gewässern. Jedoch befindet sich das Sägewerk mit der höchsten Sägekapazität direkt an der Donau. Der Hochwasserschutz in Ybbs wurde 2011 fertiggestellt. Die Konzentration in Österreich und Tschechien ist beachtlich.
 
@@ -23,20 +23,20 @@ Historisch wurden "Sägemühlen" direkt mit Wasserkraft angetrieben und Holz wur
 |   ![stora_enso_001](/images/stora_enso/stora_enso_001.png)   |
 | :----------------------------------------------------------: |
 |                                                              |
-| *Balkendiagramm der Sägekapazität der Sägewerke (in 1.000 m³) * |
+| *Balkendiagramm der Sägekapazität der Sägewerke (in 1.000 m³)* |
 
 Das Sägewerk in Ybbs an der Donau (Österreich) hat im Jahr 2021 eine Sägekapazität von rund 700.000 m³ laut englischer Webseite, die deutsche Webseite gibt eine Zahl von 550.000 m³ an.                       
 
 |   ![stora_enso_004](/images/stora_enso/stora_enso_004.png)   |
 | :----------------------------------------------------------: |
 |                                                              |
-| *Säulendiagramm der Sägekapazitätssumme nach Land (in 1.000 m³) * |
+| *Säulendiagramm der Sägekapazitätssumme nach Land (in 1.000 m³)* |
 
 
 
 Die Tabelle zeigt eine Übersicht der Produktionskapazitäten der Sägewerke von Stora Enso im Jahr 2021. Die Zellstoff- und Papierproduktion in Veitsiluoto in Finnland ist geschlossen. Der europäische Papiermarkt hat eine erhebliche Überkapazität, die zu einem historisch niedrigen Preisniveau führte. Das Sägewerk wird mit 50 Mitarbeitern weiterbetrieben. 
 
-| Sägewerk                       | Stadt            | Land       | Sägekapazität | Weiterverarbeitungskapazität (1.000 m³) | Pellet-Kapazität (1.000 m³) | CLT-Kapazität* (1.000 m³) | LVL-Kapazität (1.000 m³) | Längengrad  | Breitengrad | Google Maps                           | Bemerkung         |
+| Sägewerk                       | Stadt            | Land       | Sägekapazität (in 1.000 m³) | Weiterverarbeitungskapazität (1.000 m³) | Pellet-Kapazität (1.000 m³) | CLT-Kapazität* (1.000 m³) | LVL-Kapazität (1.000 m³) | Längengrad  | Breitengrad | Google Maps                           | Bemerkung         |
 | ------------------------------ | ---------------- | ---------- | ------------- | --------------------------------------- | --------------------------- | ------------------------- | ------------------------ | ----------- | ----------- | ------------------------------------- | ----------------- |
 | Planà (Tschechien)             | Planà            | Tschechien | 390           | 220                                     | -                           | -                         | -                        | 49,86334474 | 12,72212522 | https://goo.gl/maps/pcsZ6FCcqZ5WxfBM8 | -                 |
 | Zdírec  (Tschechien)           | Zdírec           | Tschechien | 580           | 220                                     | 80                          | -                         | -                        | 49,69938814 | 15,80962706 | https://g.page/StoraEnsoZdirec?share  | -                 |
