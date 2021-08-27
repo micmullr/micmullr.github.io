@@ -6,10 +6,9 @@ tags:
 - Excel
 ---
 
-**Stand:** 26.08.2021
-
 **Stora Enso**  ist ein finnisch-schwedischer Konzern und gemessen an der Produktionskapazität das zweitgrößte Forstunternehmen der Welt. Sitz der Gesellschaft ist Helsinki in Finnland. Stora Enso ist die älteste Aktiengesellschaft der Welt. Nachstehend sind die Sägewerke in Europa aufgeführt. Die Heatmap veranschaulicht durch ihre Farbintensität die Größe der jeweiligen Sägewerkkapazität.
 
+**Stand:** 26.08.2021
 
 | ![Produktionskapazitäten der Sägewerke von Stora Enso im Jahr 2021 (in 1.000 m³)](/images/stora_enso/stora_enso_002.png) |
 | :----------------------------------------------------------: |
