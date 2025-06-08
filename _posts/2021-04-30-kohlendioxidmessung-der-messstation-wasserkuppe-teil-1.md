@@ -36,7 +36,7 @@ Der Mittelwert war von 2001 bis 2004 relativ konstant, ab 2005 jedoch gestiegen.
 
 # Der Datensatz
 
-Der Datensatz stammt vom Hessischen Landesamt für Naturschutz, Umwelt und Geologie (HLNUG). Er wurde von folgender Webseite heruntergeladen: [Luftmessstelle Wasserkuppe | Messdatenportal](http://www.hlnug.de/messwerte/datenportal/messstelle/2/1/0801/7,11,20)
+Der Datensatz stammt vom Hessischen Landesamt für Naturschutz, Umwelt und Geologie (HLNUG). Er wurde von folgender Webseite heruntergeladen: http://www.hlnug.de/messwerte/datenportal/messstelle/2/1/0801/7,11,20
 
 Für die Analyse wurden folgende Einstellungen gewählt: Luft, Luftmessnetz, Wasserkuppe. Es wurden die drei Parameter Kohlendioxid (CO₂), Luftdruck und Temperatur sowie der Stundenmittelwert ausgewählt. Temperatur und Luftdruck sind notwendig, um die Messwerte in das Volumenmischungsverhältnis (ppm) umzurechnen. Der Download erfolgte am 05.06.2020 *für den Zeitraum* 05.07.2000 bis 04.06.2020.
 
