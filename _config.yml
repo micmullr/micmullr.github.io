@@ -10,7 +10,7 @@ locale                   : "de-DE"
 title                    : "Michael Müller"
 title_separator          : "-"
 name                     : &name "Michael Müller"
-description              : &description "Meine Reise zum Data Scientist"
+description              : &description "Meine Reise zum Fachinformatiker"
 url                      : https://micmullr.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "micmullr/micmullr.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Michael Müller"
   avatar           : "profile.png"
-  bio              : "Betriebswirt, IT"
-  location         : "Erfurt, Thüringen, Deutschland"
+  bio              : "Betriebswirt & IT"
+  location         : "Erfurt, Thüringen"
   employer         :
   pubmed           : 
   googlescholar    : 
